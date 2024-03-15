@@ -1,0 +1,42 @@
+파이토치는 버전, 순서가 다 맞아야지 정상적으로 작동이 된다.
+심지어 넘파이 마저...
+책을 보는경우 최신 버전이 아닌 옛 버전을 사용해야 하는 경우가 있다.
+
+
+cuda = GPU를 사용하도록하는 NVidea에서 만든 라이브러리
+
+
+torch.onnx : 모델들을 서로 호환/공유 가능하도록 만듬
+
+
+Tensor - 다차원 데이터르 담는 수학 객체
+       - 모델 입력과 출력에 사용
+       - array(배열)이나 Matrix(행렬)과 유사한 자료 구조
+
+
+Class 구성 - 속성(attribute)
+           - 메소드(method)
+get 속성명, set 속성명
+
+경사하강법 업데이트 되는 것 : 기울기
+
+
+tensor 속성
+ - tensor.shape: 모양 (tensor.size())
+ - tensor.dtype: 타입
+ - tensor.ndim: 차원
+ - tensor.requires_grad : true 가 되어 있으면 자동으로 업데이트가 되어준다(?)
+
+ torch.uint8 = ByteTensor
+ torch.int8 = CharTensor
+ torch.int16 = ShortTensor
+ torch.int32 = IntTensor
+ torch.int64 = LongTensor
+
+
+ Class A 일 경우
+ a1 = A() 생성자가 만들어진다
+ Tensor도 마찬가지
+ tt = FloatTensor()
+
+
